@@ -1,13 +1,88 @@
 {
-  "首页": "首页",
-  "控制台": "控制台",
-  "定价": "定价",
-  "关于": "关于",
-  "登录": "登录",
-  "注册": "注册",
-  "退出": "退出",
-  "语言": "语言",
-  "展开侧边栏": "展开侧边栏",
-  "关闭侧边栏": "关闭侧边栏",
-  "注销成功!": "注销成功!"
+  "landing": {
+    "hero": {
+      "title": {
+        "prefix": "所有 AI 模型",
+        "highlight": "一个 API"
+      },
+      "models": "500+ AI模型",
+      "freeOffer": "限时免费！立即注册",
+      "getTokens": "获取免费代币",
+      "now": "即刻！",
+      "getApiKey": "取得免费 API 密钥",
+      "apiDocs": "API 文档"
+    },
+    "modelSearch": {
+      "modelList": "型号清单",
+      "title": "500+ AI模型統一在一個API中",
+      "placeholder": "输入以开始搜索...",
+      "search": "搜寻"
+    },
+    "modelCard": {
+      "learnMore": "了解更多"
+    },
+    "modelGrid": {
+      "gpt5Mini": "GPT-5 迷你 API",
+      "gpt5MiniDesc": "适用于各种应用的高级语言模型",
+      "claude": "Claude API",
+      "claudeDesc": "Anthropic的对话AI助手"
+    },
+    "howItWorks": {
+      "howItWorks": "工作原理",
+      "title": "簡單的逐步過程",
+      "step": "步骤",
+      "step1": {
+        "title": "获取API密钥",
+        "description": "从仪表板检索您的专用密钥，格式为 sk-XXXXX。"
+      },
+      "step2": {
+        "title": "更改 base_url",
+        "description": "将程序中的 base_url 更新为"
+      },
+      "step3": {
+        "title": "使用 OpenAI 格式",
+        "description": "使用 OpenAI 的格式—只需替换您的密钥和基本 URL。"
+      },
+      "learnMore": "了解更多"
+    },
+    "modelShowcase": {
+      "title": "统一访问领先的 AI 模型"
+    },
+    "features": {
+      "mainAdvantages": "主要优点",
+      "title": "您需要的所有AI API，全部集中在一個平台上",
+      "description": "通过专为效率和增长而设计的高性能无服务器架构来最大限度降低成本和维护成本。",
+      "benefit1": "新-率先获得全球最新的 AI 模型。",
+      "benefit2": "快速-超高开发性、低延迟反应。",
+      "benefit3": "稳定-全天候不间断、可靠的效能。",
+      "dailyRequests": "每日請求",
+      "activeUsers": "活躍用戶",
+      "satisfaction": "滿意度",
+      "integratedModels": "集成模型"
+    },
+    "faq": {
+      "mainAdvantages": "主要优点",
+      "title": "我們在這裡回答您的所有問題",
+      "description": "您需要了解有關產品和計費的所有信息。找不到您要找的答案？與我們友好的團隊聊天。",
+      "q1": "1. 什麼是CometAPI？",
+      "a1": "CometAPI is a developer-centric AI model API aggregation platform that provides unified access interfaces. GPT, Midjourney, Claude, and more.",
+      "q2": "2. 如何開始？",
+      "a2": "只需要简单三步：1) 注册CometAPI账户 2) 获取API密钥 3) 开始调用我们的API接口。我们提供详细的文档和示例代码帮助您快速上手。",
+      "q3": "3. 它適合我的業務嗎？",
+      "a3": "CometAPI适用于各种规模的业务，从个人开发者到企业级应用。我们提供灵活的定价方案和技术支持，可以满足不同业务场景的需求。",
+      "q4": "4. 如何跟踪使用情況和成本？",
+      "a4": "我们提供详细的使用仪表板，您可以实时监控API调用次数、费用支出、模型使用分布等数据。同时支持设置使用限制和预算提醒。",
+      "q5": "5. 提供什麼支持？",
+      "a5": "我们提供多种支持方式：在线文档、API参考、代码示例、社区论坛、邮件支持。企业用户还可享受专属技术支持和优先服务。"
+    },
+    "cta": {
+      "startToday": "从今天开始",
+      "oneApi": "一個API",
+      "accessModels": "訪問500+ AI模型！",
+      "freeOffer": "限時免費！立即註冊",
+      "getFreeTokens": "立即獲得1M免費代幣！",
+      "getFreeApiKey": "獲得免費API密鑰",
+      "apiDocs": "API文檔"
+    }
+  }
 }

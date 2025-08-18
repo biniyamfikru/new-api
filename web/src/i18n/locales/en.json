@@ -1142,7 +1142,7 @@
   "请选择可以使用该渠道的分组": "Please select groups that can use this channel",
   "请在系统设置页面编辑分组倍率以添加新的分组：": "Please edit Group ratios in system settings to add new groups:",
   "部署地区": "Deployment Region",
-  "请输入部署地区，例如：us-central1\n支持使用模型映射格式": "Please enter deployment region, e.g.: us-central1\nSupports model mapping format",
+  "请输入部署地区，例如：us-central1\\n支持使用模型映射格式": "Please enter deployment region, e.g.: us-central1\\nSupports model mapping format",
   "填入模板": "Fill Template",
   "鉴权json": "Authentication JSON",
   "请输入鉴权json": "Please enter authentication JSON",
@@ -1678,7 +1678,7 @@
   "暂无监控数据": "No monitoring data",
   "IP记录": "IP Record",
   "记录请求与错误日志 IP": "Record request and error log IP",
-  "开启后，仅“消费”和“错误”日志将记录您的客户端 IP 地址": "After enabling, only \"consumption\" and \"error\" logs will record your client IP address",
+  "开启后，仅\"消费\"和\"错误\"日志将记录您的客户端 IP 地址": "After enabling, only \"consumption\" and \"error\" logs will record your client IP address",
   "只有当用户设置开启IP记录时，才会进行请求和错误类型日志的IP记录": "Only when the user sets IP recording, the IP recording of request and error type logs will be performed",
   "设置保存成功": "Settings saved successfully",
   "设置保存失败": "Settings save failed",
@@ -1772,7 +1772,7 @@
   "仅支持 JSON 文件，支持多文件": "Only JSON files are supported, multiple files are supported",
   "请上传密钥文件": "Please upload the key file",
   "请填写部署地区": "Please fill in the deployment region",
-  "请输入部署地区，例如：us-central1\n支持使用模型映射格式\n{\n    \"default\": \"us-central1\",\n    \"claude-3-5-sonnet-20240620\": \"europe-west1\"\n}": "Please enter the deployment region, for example: us-central1\nSupports using model mapping format\n{\n    \"default\": \"us-central1\",\n    \"claude-3-5-sonnet-20240620\": \"europe-west1\"\n}",
+  "请输入部署地区，例如：us-central1\\n支持使用模型映射格式\\n{\\n    \"default\": \"us-central1\",\\n    \"claude-3-5-sonnet-20240620\": \"europe-west1\"\\n}": "Please enter the deployment region, for example: us-central1\\nSupports using model mapping format\\n{\\n    \"default\": \"us-central1\",\\n    \"claude-3-5-sonnet-20240620\": \"europe-west1\"\\n}",
   "其他": "Other",
   "未知渠道": "Unknown channel",
   "切换为单密钥模式": "Switch to single key mode",
@@ -1781,5 +1781,91 @@
   "启用全部密钥": "Enable all keys",
   "以充值价格显示": "Show with recharge price",
   "美元汇率（非充值汇率，仅用于定价页面换算）": "USD exchange rate (not recharge rate, only used for pricing page conversion)",
-  "美元汇率": "USD exchange rate"
+  "美元汇率": "USD exchange rate",
+  "landing": {
+    "hero": {
+      "title": {
+        "prefix": "All AI Models",
+        "highlight": "One API"
+      },
+      "models": "500+ AI Models",
+      "freeOffer": "Limited Time Free! Register Now",
+      "getTokens": "Get Free Tokens",
+      "now": "Now!",
+      "getApiKey": "Get Free API Key",
+      "apiDocs": "API Documentation"
+    },
+    "modelSearch": {
+      "modelList": "Model List",
+      "title": "500+ AI Models Unified in One API",
+      "placeholder": "Enter to start searching...",
+      "search": "Search"
+    },
+    "modelCard": {
+      "learnMore": "Learn More"
+    },
+    "modelGrid": {
+      "gpt5Mini": "GPT-5 Mini API",
+      "gpt5MiniDesc": "Advanced language model for various applications",
+      "claude": "Claude API",
+      "claudeDesc": "Anthropic's conversational AI assistant"
+    },
+    "howItWorks": {
+      "howItWorks": "How It Works",
+      "title": "Simple Step-by-Step Process",
+      "step": "Step",
+      "step1": {
+        "title": "Get API Key",
+        "description": "Retrieve your dedicated key from the dashboard in the format sk-XXXXX."
+      },
+      "step2": {
+        "title": "Change base_url",
+        "description": "Update the base_url in your program to"
+      },
+      "step3": {
+        "title": "Use OpenAI Format",
+        "description": "Use OpenAI's format—just replace your key and base URL."
+      },
+      "learnMore": "Learn More"
+    },
+    "modelShowcase": {
+      "title": "Unified Access to Leading AI Models"
+    },
+    "features": {
+      "mainAdvantages": "Main Advantages",
+      "title": "All AI APIs You Need, All Centralized on One Platform",
+      "description": "Maximize cost efficiency and reduce maintenance costs through high-performance serverless architecture designed for efficiency and growth.",
+      "benefit1": "New - Be the first to access the latest global AI models.",
+      "benefit2": "Fast - Ultra-high development speed, low latency response.",
+      "benefit3": "Stable - 24/7 uninterrupted, reliable performance.",
+      "dailyRequests": "Daily Requests",
+      "activeUsers": "Active Users",
+      "satisfaction": "Satisfaction",
+      "integratedModels": "Integrated Models"
+    },
+    "faq": {
+      "mainAdvantages": "Main Advantages",
+      "title": "We're Here to Answer All Your Questions",
+      "description": "You need to know all the information about products and billing. Can't find the answer you're looking for? Chat with our friendly team.",
+      "q1": "1. What is CometAPI?",
+      "a1": "CometAPI is a developer-centric AI model API aggregation platform that provides unified access interfaces. GPT, Midjourney, Claude, and more.",
+      "q2": "2. How to get started?",
+      "a2": "Just three simple steps: 1) Register a CometAPI account 2) Get API key 3) Start calling our API interfaces. We provide detailed documentation and sample code to help you get started quickly.",
+      "q3": "3. Is it suitable for my business?",
+      "a3": "CometAPI is suitable for businesses of all sizes, from individual developers to enterprise-level applications. We provide flexible pricing plans and technical support to meet the needs of different business scenarios.",
+      "q4": "4. How to track usage and costs?",
+      "a4": "We provide detailed usage dashboards where you can monitor API call counts, expense spending, model usage distribution and other data in real-time. We also support setting usage limits and budget reminders.",
+      "q5": "5. What support is provided?",
+      "a5": "We provide multiple support methods: online documentation, API reference, code examples, community forums, email support. Enterprise users can also enjoy exclusive technical support and priority service."
+    },
+    "cta": {
+      "startToday": "Start Today",
+      "oneApi": "One API",
+      "accessModels": "Access 500+ AI Models!",
+      "freeOffer": "Limited Time Free! Register Now",
+      "getFreeTokens": "Get 1M Free Tokens Now!",
+      "getFreeApiKey": "Get Free API Key",
+      "apiDocs": "API Documentation"
+    }
+  }
 }
